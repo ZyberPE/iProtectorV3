@@ -18,7 +18,12 @@ final class Main extends PluginBase{
 
     protected function onEnable() : void{
         self::$instance = $this;
-
+$this->getServer()
+    ->getCommandMap()
+    ->register(
+        "area",
+        new AreaCommand()
+    );
         @mkdir($this->getDataFolder());
 
         $this->saveResource("areas.yml");
