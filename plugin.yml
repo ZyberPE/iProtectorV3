@@ -1,0 +1,17 @@
+name: AreaProtect
+version: 1.0.0
+main: AreaProtect\Main
+api: 5.0.0
+author: ZyberPE
+
+permissions:
+  areaprotect.command:
+    default: op
+
+  areaprotect.bypass:
+    default: op
+
+commands:
+  area:
+    description: Area protection command
+    permission: areaprotect.command
