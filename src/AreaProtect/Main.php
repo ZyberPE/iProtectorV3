@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 namespace AreaProtect;
-
+use AreaProtect\command\AreaCommand;
 use pocketmine\plugin\PluginBase;
 use AreaProtect\area\AreaManager;
 
